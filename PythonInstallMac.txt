@@ -1,0 +1,20 @@
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+
+if you have OS X 10.12 (Sierra) or older use this line instead
+
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
+
+$ brew install python
+
+$ python
+will launch the Homebrew-installed Python 3 interpreter.
+
+$ python2
+will launch the Homebrew-installed Python 2 interpreter (if any).
+
+python3
+will launch the Homebrew-installed Python 3 interpreter.
